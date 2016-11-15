@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+    position: relative;
+    min-height: 100%;
+    margin: -0.5em 0 0 0;
+}
+
+#header {
+    height: 4em;
+    background-color: skyblue;
+}
+
+#content {
+    overflow: auto;
+    text-align: center;
+}
+
+#center {
+    margin: auto;  
+    display: inline-block;
+    background-color: white;
+    overflow: auto;
+    padding: 2em;
+    border-radius: 0 0 1em 1em;
+}
+
+footer {
+    margin: 0 0 -0.5em 0;
+    height: 2em;
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.button1 {
+    text-decoration: none;
+    color: inherit;
+    background-color: antiquewhite;
+    display: block;
+    overflow: auto;
+    padding: 1em;
+    float: left;
+    margin: 0.5em;
+    border: 2px solid skyblue;
+    border-radius: 0.2em;
+}
+
+.hbutton {
+    float: left;
+    background-color: antiquewhite;
+    width: 5em;
+    height: 2em;
+    margin: 0.8em 0 0 30%;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#error_msg {
+    text-align: center;
+    background-color: #ff9999;
+    margin: 1em;
+    border-radius: 0.1em;
+}

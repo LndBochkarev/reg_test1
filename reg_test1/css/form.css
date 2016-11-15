@@ -1,0 +1,77 @@
+
+.regin_holder {
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 1em;    
+}
+
+.regin_holder input {
+    width: calc(100% - 0.4em);
+    margin: 0.2em;
+}
+
+.regin_holder_2c {
+    overflow: auto;
+    margin-bottom: 1em;
+    
+}
+
+.regin_holder_2c div {
+    display: inline-block;    
+}
+
+.regin_holder_2c .second {
+    margin-left: 1em;
+}
+
+form label {    
+    float: left;
+    clear: both;
+}
+
+input {
+    float: left;
+    clear: both;
+    line-height: 2em;
+    font-size: 1em;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    box-sizing: border-box;  
+    width: 15em;
+}
+
+input:focus {
+    border-color: steelblue;
+}
+
+form textarea {
+    float: left;
+    clear: both;
+    line-height: 2em;
+    font-size: 1em;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+    box-sizing: border-box;  
+    width: 100%;
+}
+
+#firstname {
+    clear: none;
+}
+
+#lastname {
+   clear: none; 
+}
+
+.rebutton {
+    float: left;
+    clear: none;
+    margin: 0 1em 0 0;
+}
+
+.form_hint {
+    float: left;
+    clear: both;
+    font-size: 0.9em;
+    color: red;
+}
